@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.wyf.expressdemo.MainActivity">
+
+    <EditText
+        android:id="@+id/et_company"
+        android:hint="输入快递公司"
+        android:textColor="#000"
+        android:text="韵达"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_menu"
+        android:hint="输入快递单号"
+        android:textColor="#000"
+        android:text="3809010196532"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="click"
+        android:text="查询"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/ll_add_text"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
